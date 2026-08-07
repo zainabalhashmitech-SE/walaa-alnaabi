@@ -1,3 +1,8 @@
+if ("scrollRestoration" in history) {
+  history.scrollRestoration = "manual";
+}
+
+
 /* ==================================================
    Header Scroll Effect
 ================================================== */

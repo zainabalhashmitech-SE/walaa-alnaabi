@@ -78,14 +78,19 @@ document.addEventListener("DOMContentLoaded", () => {
       button.setAttribute("aria-current", isActive ? "true" : "false");
     });
 
-    const activeButton = buttons[currentIndex];
-    if (activeButton) {
-      activeButton.scrollIntoView({
-        behavior: reducedMotion ? "auto" : "smooth",
-        block: "nearest",
-        inline: "center"
-      });
-    }
+   const activeButton = buttons[currentIndex];
+
+if (activeButton) {
+  const thumbnailPosition =
+    activeButton.offsetLeft -
+    thumbnails.clientWidth / 2 +
+    activeButton.clientWidth / 2;
+
+  thumbnails.scrollTo({
+    left: thumbnailPosition,
+    behavior: reducedMotion ? "auto" : "smooth"
+  });
+}
   }
 
   function updateLightbox() {
