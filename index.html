@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <!-- تحديد ترميز اللغة العربية -->
+    <meta charset="UTF-8">
+
+    <!-- جعل الموقع متجاوبًا مع الهواتف والأجهزة المختلفة -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- وصف الموقع لمحركات البحث -->
+    <meta
+        name="description"
+        content="بورتفوليو المصورة العُمانية ولاء الناعبي؛ بورتريه، منتجات، مناسبات وتفاصيل بصرية تحفظ اللحظة."
+    >
+
+    <!-- عنوان الصفحة الذي يظهر في المتصفح -->
+    <title> ولاء الناعبي | فوتوغرافر</title>
+    <!-- خط اسم الفنان -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Aclonica&family=Tajawal:wght@400;500;700&display=swap"
+    rel="stylesheet"
+>
+    <!-- ربط ملف CSS الخارجي -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+<!-- ملف JavaScript الخاص بمعرض الصور -->
+<script>document.documentElement.classList.add("js");</script>
+<script src="js/script.js" defer></script>
+<script src="js/gallery.js" defer></script>
+</head>
+
+<body>
+<!-- ==================================================
+     Simple Centered Header
+     ثلاثة روابط فقط في المنتصف
+================================================== -->
+
+<header class="site-header">
+    <nav class="main-navigation" aria-label="التنقل الرئيسي">
+        <a href="#home" class="nav-link active">
+            البداية
+        </a>
+
+        <a href="#about" class="nav-link">
+            عنّي
+        </a>
+
+        <a href="#gallery" class="nav-link">
+            عدسة
+        </a>
+    </nav>
+</header>
+  
+    <!-- المحتوى الرئيسي للموقع -->
+    <main>
+
+     <!-- ==================================================
+     Hero Section
+     القسم التعريفي الرئيسي للمصورة
+================================================== -->
+
+<section id="home" class="intro-hero">
+    <div class="container intro-hero-container">
+
+        <!-- المحتوى الرئيسي -->
+        <div class="intro-hero-content intro-hero-content-centered">
+
+            <!-- تعريف صغير فوق الاسم -->
+            <p class="intro-hero-label">
+                مصوّرة فوتوغرافية 
+            </p>
+
+            <!-- اسم المصورة -->
+            <h1 class="intro-artist-name">
+                <span>Walaa</span>
+                <span>Alnaabi</span>
+            </h1>
+
+            <!-- التخصص والموقع -->
+            <p class="intro-artist-subtitle" lang="en" dir="ltr">
+                Photographer Based in Oman
+            </p>
+
+            <!-- زر الانتقال إلى الأعمال -->
+           <a href="#gallery" class="hero-work-btn">
+  <span class="hero-work-btn__text" dir="rtl">
+    اكتشف أعمالي
+  </span>
+</a>
+        </div>
+
+        <!-- النص الجانبي يظهر على الكمبيوتر فقط -->
+        <p class="intro-side-text" aria-hidden="true">
+            بورتفوليو فني · 2026
+        </p>
+
+    </div>
+</section>
+
+
+
+
+<!-- New About section goes here -->
+<section
+  class="artist-about"
+  id="about"
+  dir="rtl"
+  aria-labelledby="artist-about-title"
+>
+  <!-- Aperture-inspired background shape -->
+  <div class="artist-about__aperture" aria-hidden="true"></div>
+
+  <div class="artist-about__inner">
+    <!-- Text content -->
+    <div class="artist-about__content">
+      <p
+        class="artist-about__eyebrow"
+        data-reveal
+        style="--delay: 0ms"
+      >
+        عن المصورة
+      </p>
+
+      <h2
+        class="artist-about__title"
+        id="artist-about-title"
+        data-reveal
+        style="--delay: 100ms"
+      >
+        من خلف العدسة
+      </h2>
+
+      <div
+        class="artist-about__manifesto"
+        data-reveal
+        style="--delay: 200ms"
+      >
+        <span>لا أبحث عن الصورة المثالية،</span>
+        <span>أبحث عن اللحظة الحقيقية.</span>
+      </div>
+
+      <p
+        class="artist-about__description"
+        data-reveal
+        style="--delay: 300ms"
+      >
+        أراقب الضوء والتفاصيل الصغيرة والمشاعر التي تمرّ سريعًا،
+        ثم أحفظها في صورة تبقى حاضرة حتى بعد انتهاء اللحظة.
+      </p>
+
+      <!-- Artistic identity cards -->
+      <div
+        class="artist-about__details"
+        data-reveal
+        style="--delay: 400ms"
+      >
+        <article class="artist-detail">
+          <span class="artist-detail__number">01</span>
+          <small>أول ما ألاحظه</small>
+          <strong>الضوء</strong>
+        </article>
+
+        <article class="artist-detail">
+          <span class="artist-detail__number">02</span>
+          <small>ما أبحث عنه</small>
+          <strong>الإحساس</strong>
+        </article>
+
+        <article class="artist-detail">
+          <span class="artist-detail__number">03</span>
+          <small>ما يلهمني</small>
+          <strong>التفاصيل</strong>
+        </article>
+      </div>
+
+      <!-- Film-inspired CTA -->
+      <a
+        href="#gallery"
+        class="artist-about__film-link"
+        data-reveal
+        style="--delay: 500ms"
+      >
+        <span class="artist-about__film-title">
+          الإطار القادم قد يكون حكايتك
+        </span>
+
+        <span class="artist-about__film-subtitle">
+          شاهد أعمالي
+        </span>
+      </a>
+    </div>
+
+    <!-- Developing photograph -->
+    <div
+      class="artist-about__photo-stage"
+      data-reveal
+      style="--delay: 150ms"
+    >
+      <div class="artist-about__photo-float">
+        <figure class="artist-about__photo-paper">
+        <span class="artist-about__tape" aria-hidden="true"></span>
+
+        <div class="artist-about__photo-window">
+          <img
+            src="images/projects/pic_14.webp"
+            alt="صورة بورتريه فنية من أعمال المصورة"
+            loading="lazy"
+            decoding="async"
+            width="900"
+            height="1125"
+          >
+
+          <span
+            class="artist-about__develop-layer"
+            aria-hidden="true"
+          ></span>
+        </div>
+
+        <figcaption>
+          <span>الضوء · الإحساس · التفاصيل</span>
+          <span aria-hidden="true">14 / 22</span>
+        </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+       <!-- ==================================================
+     Artwork Swiper Gallery
+     معرض صور فني يمكن سحبه باللمس
+================================================== -->
+
+<!-- احذفي قسم المعرض القديم بالكامل، ثم ضعي هذا القسم مكانه -->
+<section
+  id="gallery"
+  class="focus-gallery"
+  aria-labelledby="focus-gallery-title"
+ 
+>
+  <div class="container">
+    <header class="focus-gallery__header">
+      <p class="focus-gallery__eyebrow">03 — معرض الأعمال</p>
+      <h2 id="focus-gallery-title">ما يبقى بعد اللحظة</h2>
+      <p>
+        أبحث عن الضوء الذي يمر سريعًا، والتفاصيل التي قد لا يلاحظها
+        الجميع. اختر إطارًا، ودع الصورة تحكي بقيّة القصة.
+      </p>
+    </header>
+
+    <div class="focus-gallery__filters" role="group" aria-label="تصفية الأعمال">
+      <button type="button" class="is-active" data-gallery-filter="all" aria-pressed="true">الكل</button>
+      <button type="button" data-gallery-filter="portraits" aria-pressed="false">وجوه</button>
+      <button type="button" data-gallery-filter="products" aria-pressed="false">منتجات</button>
+      <button type="button" data-gallery-filter="events" aria-pressed="false">مناسبات</button>
+      <button type="button" data-gallery-filter="details" aria-pressed="false">تفاصيل</button>
+    </div>
+
+    <div class="focus-gallery__viewer">
+      <div class="focus-gallery__stage">
+        <span class="focus-gallery__corner focus-gallery__corner--tr" aria-hidden="true"></span>
+        <span class="focus-gallery__corner focus-gallery__corner--tl" aria-hidden="true"></span>
+        <span class="focus-gallery__corner focus-gallery__corner--br" aria-hidden="true"></span>
+        <span class="focus-gallery__corner focus-gallery__corner--bl" aria-hidden="true"></span>
+
+        <button
+          class="focus-gallery__open"
+          type="button"
+          aria-label="فتح الصورة بالحجم الكامل"
+        >
+          <img
+            class="focus-gallery__image"
+            src="images/projects/pic_1.webp"
+            alt="خطوط صامتة — تفاصيل معمارية"
+            decoding="async"
+          >
+        </button>
+
+        <button class="focus-gallery__nav focus-gallery__previous" type="button" aria-label="الصورة السابقة">→</button>
+        <button class="focus-gallery__nav focus-gallery__next" type="button" aria-label="الصورة التالية">←</button>
+
+        <span class="focus-gallery__hint">اضغط على الصورة لعرض التفاصيل</span>
+      </div>
+
+      <aside class="focus-gallery__info" aria-live="polite">
+        <div class="focus-gallery__info-top">
+          <span class="focus-gallery__counter">01 / 16</span>
+          <span class="focus-gallery__category">تفاصيل</span>
+        </div>
+
+        <h3 class="focus-gallery__art-title">خطوط صامتة</h3>
+        <p class="focus-gallery__description">
+          تفاصيل تمر سريعًا، لكن الصورة تمنحها وقتًا أطول.
+        </p>
+        <p class="focus-gallery__meta">تفاصيل معمارية · عُمان</p>
+
+        <div class="focus-gallery__progress" aria-hidden="true">
+          <span class="focus-gallery__progress-value"></span>
+        </div>
+      </aside>
+    </div>
+
+    <div class="focus-gallery__contact-sheet">
+      <p>اختر إطارًا لرؤية الحكاية</p>
+      <div class="focus-gallery__thumbs" aria-label="الصور المصغرة"></div>
+    </div>
+  </div>
+
+  <dialog class="focus-lightbox" aria-label="عرض الصورة بالحجم الكامل">
+    <button class="focus-lightbox__close" type="button" aria-label="إغلاق الصورة">×</button>
+
+    <img class="focus-lightbox__image" src="images/projects/pic_1.webp" alt="">
+
+    <div class="focus-lightbox__controls">
+      <button class="focus-lightbox__previous" type="button" aria-label="الصورة السابقة">→</button>
+      <span class="focus-lightbox__counter">01 / 16</span>
+      <button class="focus-lightbox__next" type="button" aria-label="الصورة التالية">←</button>
+    </div>
+  </dialog>
+</section>
+
+    </main>
+
+    <!-- =========================
+         Footer
+    ========================== -->
+      <footer class="site-footer" aria-label="تذييل الموقع">
+  <div class="container site-footer__inner">
+
+    <div class="site-footer__bar">
+      <p class="site-footer__copyright">
+        <span>© 2026 ولاء الناعبي</span>
+        <span>جميع الحقوق محفوظة.</span>
+      </p>
+
+      <nav class="site-footer__links" aria-label="روابط التذييل">
+        <a href="#gallery">الأعمال</a>
+        <a href="#about">عنّي</a>
+        <a href="#home">البداية</a>
+      </nav>
+    </div>
+
+    <div class="site-footer__profile">
+      <img
+        src="images/profiles/profile-pic.webp"
+        alt="المصورة ولاء الناعبي"
+        width="300"
+        height="300"
+        loading="lazy"
+        decoding="async"
+      >
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>

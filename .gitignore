@@ -1,0 +1,10 @@
+.history/
+.vscode/
+*.zip
+*.rar
+*.CR3
+*.cr3
+*.RAW
+*.raw
+Thumbs.db
+.DS_Store

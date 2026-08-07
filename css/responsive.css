@@ -1,0 +1,57 @@
+/* ==================================================
+   Swiper — Tablet
+================================================== */
+
+@media (max-width: 900px) {
+    .artwork-gallery-section {
+        padding-block: 90px;
+    }
+
+    .artwork-swiper {
+        margin-top: 45px;
+    }
+}
+
+/* ==================================================
+   Swiper — Mobile
+================================================== */
+
+@media (max-width: 600px) {
+    .artwork-gallery-section {
+        padding-block: 70px;
+    }
+
+    .gallery-section-header {
+        align-items: flex-start;
+    }
+
+    .gallery-section-title {
+        font-size: clamp(2.2rem, 11vw, 3.5rem);
+    }
+
+    .gallery-navigation button {
+        width: 42px;
+        height: 42px;
+    }
+
+    .artwork-swiper {
+        margin-top: 38px;
+        padding-bottom: 50px;
+    }
+}
+
+/* الهواتف الصغيرة */
+@media (max-width: 350px) {
+    .gallery-section-header {
+        gap: 15px;
+    }
+
+    .gallery-navigation {
+        gap: 6px;
+    }
+
+    .gallery-navigation button {
+        width: 38px;
+        height: 38px;
+    }
+}
